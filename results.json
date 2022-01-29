@@ -5,24 +5,45 @@
   "passed": [
     {
       "describe": "parse_file/1",
-      "file": "/home/willsouza/source-github/elixir_ignite_challenge_03/test/parser_test.exs",
+      "file": "/home/wilton/source-github/elixir_ignite_challenge_04/test/parser_test.exs",
       "line": 7,
       "module": "Elixir.GenReport.ParserTest",
       "test": "test parse_file/1 parses the file"
     },
     {
-      "describe": "build/1",
-      "file": "/home/willsouza/source-github/elixir_ignite_challenge_03/test/gen_report_test.exs",
-      "line": 16,
+      "describe": "parallel_build/1",
+      "file": "/home/wilton/source-github/elixir_ignite_challenge_04/test/gen_report_test.exs",
+      "line": 25,
       "module": "Elixir.GenReportTest",
-      "test": "test build/1 When no filename was given, returns an error"
+      "test": "test parallel_build/1 When passing a file list return a report"
     },
     {
       "describe": "build/1",
-      "file": "/home/willsouza/source-github/elixir_ignite_challenge_03/test/gen_report_test.exs",
-      "line": 10,
+      "file": "/home/wilton/source-github/elixir_ignite_challenge_04/test/gen_report_test.exs",
+      "line": 11,
       "module": "Elixir.GenReportTest",
       "test": "test build/1 When passing file name return a report"
+    },
+    {
+      "describe": "parallel_build/1",
+      "file": "/home/wilton/source-github/elixir_ignite_challenge_04/test/gen_report_test.exs",
+      "line": 31,
+      "module": "Elixir.GenReportTest",
+      "test": "test parallel_build/1 When passing a single file, returns an error"
+    },
+    {
+      "describe": "parallel_build/1",
+      "file": "/home/wilton/source-github/elixir_ignite_challenge_04/test/gen_report_test.exs",
+      "line": 37,
+      "module": "Elixir.GenReportTest",
+      "test": "test parallel_build/1 When no list of filenames is given, returns an error"
+    },
+    {
+      "describe": "build/1",
+      "file": "/home/wilton/source-github/elixir_ignite_challenge_04/test/gen_report_test.exs",
+      "line": 17,
+      "module": "Elixir.GenReportTest",
+      "test": "test build/1 When no filename was given, returns an error"
     }
   ],
   "skiped": []
